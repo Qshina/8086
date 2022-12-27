@@ -64,6 +64,7 @@
             // XCHG_btn
             // 
             this.XCHG_btn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.XCHG_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHG_btn.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.XCHG_btn.FlatAppearance.BorderSize = 3;
             this.XCHG_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSeaGreen;
@@ -80,6 +81,7 @@
             // MOV_btn
             // 
             this.MOV_btn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.MOV_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOV_btn.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.MOV_btn.FlatAppearance.BorderSize = 3;
             this.MOV_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -97,7 +99,6 @@
             // moVwind1
             // 
             this.moVwind1.BackColor = System.Drawing.Color.Transparent;
-            this.moVwind1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moVwind1.BackgroundImage")));
             this.moVwind1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.moVwind1.Location = new System.Drawing.Point(96, 0);
             this.moVwind1.Name = "moVwind1";
