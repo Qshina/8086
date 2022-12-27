@@ -51,27 +51,27 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightGreen;
+            this.panel1.BackColor = System.Drawing.Color.CadetBlue;
             this.panel1.Controls.Add(this.XCHG_btn);
             this.panel1.Controls.Add(this.MOV_btn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(110, 423);
+            this.panel1.Size = new System.Drawing.Size(100, 531);
             this.panel1.TabIndex = 14;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
             // XCHG_btn
             // 
-            this.XCHG_btn.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.XCHG_btn.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
+            this.XCHG_btn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.XCHG_btn.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.XCHG_btn.FlatAppearance.BorderSize = 3;
-            this.XCHG_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen;
+            this.XCHG_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSeaGreen;
             this.XCHG_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.XCHG_btn.Font = new System.Drawing.Font("Bauhaus 93", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.XCHG_btn.Location = new System.Drawing.Point(0, 213);
+            this.XCHG_btn.Location = new System.Drawing.Point(0, 276);
             this.XCHG_btn.Name = "XCHG_btn";
-            this.XCHG_btn.Size = new System.Drawing.Size(100, 210);
+            this.XCHG_btn.Size = new System.Drawing.Size(100, 255);
             this.XCHG_btn.TabIndex = 0;
             this.XCHG_btn.Text = "XCHG";
             this.XCHG_btn.UseVisualStyleBackColor = false;
@@ -79,16 +79,16 @@
             // 
             // MOV_btn
             // 
-            this.MOV_btn.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.MOV_btn.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
+            this.MOV_btn.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.MOV_btn.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.MOV_btn.FlatAppearance.BorderSize = 3;
             this.MOV_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.MOV_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen;
+            this.MOV_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSeaGreen;
             this.MOV_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MOV_btn.Font = new System.Drawing.Font("Bauhaus 93", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MOV_btn.Location = new System.Drawing.Point(0, 0);
             this.MOV_btn.Name = "MOV_btn";
-            this.MOV_btn.Size = new System.Drawing.Size(100, 210);
+            this.MOV_btn.Size = new System.Drawing.Size(100, 270);
             this.MOV_btn.TabIndex = 0;
             this.MOV_btn.Text = "MOV";
             this.MOV_btn.UseVisualStyleBackColor = false;
@@ -96,27 +96,32 @@
             // 
             // moVwind1
             // 
-            this.moVwind1.BackColor = System.Drawing.Color.Teal;
-            this.moVwind1.Location = new System.Drawing.Point(106, 0);
+            this.moVwind1.BackColor = System.Drawing.Color.Transparent;
+            this.moVwind1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moVwind1.BackgroundImage")));
+            this.moVwind1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.moVwind1.Location = new System.Drawing.Point(96, 0);
             this.moVwind1.Name = "moVwind1";
-            this.moVwind1.Size = new System.Drawing.Size(530, 423);
+            this.moVwind1.Size = new System.Drawing.Size(748, 550);
             this.moVwind1.TabIndex = 15;
             this.moVwind1.Load += new System.EventHandler(this.moVwind1_Load);
             // 
             // xchGwid1
             // 
             this.xchGwid1.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.xchGwid1.BackColor = System.Drawing.SystemColors.Control;
-            this.xchGwid1.Location = new System.Drawing.Point(106, 0);
+            this.xchGwid1.BackColor = System.Drawing.Color.Transparent;
+            this.xchGwid1.Location = new System.Drawing.Point(96, 0);
             this.xchGwid1.Name = "xchGwid1";
-            this.xchGwid1.Size = new System.Drawing.Size(530, 423);
+            this.xchGwid1.Size = new System.Drawing.Size(748, 531);
             this.xchGwid1.TabIndex = 16;
+            this.xchGwid1.Load += new System.EventHandler(this.xchGwid1_Load);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 423);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(844, 531);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.xchGwid1);
             this.Controls.Add(this.moVwind1);
